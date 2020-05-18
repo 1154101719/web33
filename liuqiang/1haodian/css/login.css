@@ -24,33 +24,6 @@ a{
 .fr{
     float: right;
 }
-/* header */
-header{
-    /* border: 1px solid black; */
-    padding: 10px;
-}
-header>div{
-    color: #BCBCBC;
-    font-size: 13px;
-    line-height: 20px;
-}
-header>div a{
-    color: #237BD3;
-}
-header>div span{
-    border: 1px solid #BCBCBC;
-    display: inline-block;
-    padding-left: 20px;
-    margin-left: 20px;
-    background: url(../img/runbun.png) 0px 2px no-repeat;
-}
-header>div span i{
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-bottom: -5px;
-    background: url(../img/turnb.png) 0px 2px no-repeat;
-}
 /* section */
 .main{
     background: #FCFCFC;
@@ -177,25 +150,4 @@ section article>p:last-of-type span{
     background: url(../img/loadMore.png) 74px 14px no-repeat;
     background-size: 15px;
 }
-/* footer */
-footer ul{
-    width: 338px;
-    margin: 0px auto;
-}
-footer ul:after{
-    content: '';
-    display: block;
-    clear: both;
-}
-footer ul li{
-    font-size: 12px;
-    float: left;
-    line-height: 20px;
-    padding: 10px 10px 10px 0px;
-}
 
-footer p{
-    width: 343px;
-    margin: 0px auto;
-    font-size: 12px;
-}
