@@ -1,0 +1,201 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    color: black;
+    font-family: '微软雅黑';
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.wrap{
+    width: 1200px;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/* header */
+header{
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+header>div{
+    color: #BCBCBC;
+    font-size: 13px;
+    line-height: 20px;
+}
+header>div a{
+    color: #237BD3;
+}
+header>div span{
+    border: 1px solid #BCBCBC;
+    display: inline-block;
+    padding-left: 20px;
+    margin-left: 20px;
+    background: url(../img/runbun.png) 0px 2px no-repeat;
+}
+header>div span i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: -5px;
+    background: url(../img/turnb.png) 0px 2px no-repeat;
+}
+/* section */
+.main{
+    background: #FCFCFC;
+}
+section{
+    /* border: 1px solid black; */
+    background: #FCFCFC;
+    height: 380px;
+    background: url(../img/loadimg.jpg) 170px 0px no-repeat;
+}
+
+section article{
+    background: #ffffff;
+    /* border: 1px solid gray; */
+    margin-right:109px ;
+    margin-top:50px ;
+    padding: 30px 30px 10px 30px;
+    box-sizing: border-box;
+    width: 350px;
+    height: 315px;
+}
+section article h5{
+    color: #6D6E76;
+}
+section article h5 a{
+    color: #5C90D2;
+    font-size: 12px;
+}
+section article form .username{
+    border: .5px solid #E6E6E6;
+    margin-top: 10px;
+}
+section article form .username label{
+    display: inline-block;
+    border: none;
+    width: 33px;
+    height: 37px;
+    margin-right: -5px;
+    margin-bottom: -15px;
+    background: url(../img/userHead.png) 7px 5px no-repeat;
+    background-size: 20px;
+}
+section article form .username input{
+    margin-top: .5px;
+    border: none;
+    width: 254px;
+    height: 40px;
+    text-indent: 10px;
+}
+section article form .username input:focus{
+    outline: none;
+}
+section article form .pwd{
+    border: .5px solid #E6E6E6;
+    margin-top: 10px;
+}
+section article form .pwd label{
+    display: inline-block;
+    border: none;
+    width: 33px;
+    height: 37px;
+    margin-right: -5px;
+    margin-bottom: -15px;
+    background: url(../img/lock.png) 7px 5px no-repeat;
+    background-size: 20px ;
+}
+section article form .pwd input{
+    border: none;
+    width: 254px;
+    height: 40px;
+    text-indent: 10px;
+    margin-bottom: .5px;
+}
+section article form .pwd input:focus{
+    outline: none;
+}
+section article form .ck{
+    line-height: 30px;
+    font-size: 12px;
+    color: #6D6E76;
+}
+section article form .ck input{
+    vertical-align: middle;
+}
+section article form .ck a{
+    color: #6D6E76;
+}
+section article form .submit input{
+    border: none;
+    width: 288px;
+    height: 40px; 
+    background: #FF3C3C;
+    color: #ffffff;
+}
+section article>p{
+    color: #6D6E76;
+    font-size: 12px;
+    line-height: 40px;
+}
+section article>p:last-of-type>a{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    margin-bottom: -9px;
+    margin-right: 15px;
+}
+section article>p:last-of-type>a:nth-of-type(1){
+    background: url(../img/l_1.png) 0px 0px no-repeat;
+}
+section article>p:last-of-type>a:nth-of-type(2){
+    background: url(../img/l_2.png) 0px 0px no-repeat;
+}
+section article>p:last-of-type>a:nth-of-type(3){
+    background: url(../img/l_3.png) 0px 0px no-repeat;
+}
+section article>p:last-of-type>a:nth-of-type(4){
+    background: url(../img/l_4.png) 0px 0px no-repeat;
+}
+section article>p:last-of-type span a{
+    color: #6D6E76;
+}
+section article>p:last-of-type span{
+    padding-right: 20px;
+    background: url(../img/loadMore.png) 74px 14px no-repeat;
+    background-size: 15px;
+}
+/* footer */
+footer ul{
+    width: 338px;
+    margin: 0px auto;
+}
+footer ul:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+footer ul li{
+    font-size: 12px;
+    float: left;
+    line-height: 20px;
+    padding: 10px 10px 10px 0px;
+}
+
+footer p{
+    width: 343px;
+    margin: 0px auto;
+    font-size: 12px;
+}

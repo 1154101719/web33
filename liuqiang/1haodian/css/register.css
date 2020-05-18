@@ -1,0 +1,151 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    color: black;
+    font-family: '微软雅黑';
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.wrap{
+    width: 1200px;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/* header */
+header{
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+header>div{
+    color: #BCBCBC;
+    font-size: 13px;
+    line-height: 20px;
+}
+header>div a{
+    color: #237BD3;
+}
+header>div span{
+    border: 1px solid #BCBCBC;
+    display: inline-block;
+    padding-left: 20px;
+    margin-left: 20px;
+    background: url(../img/runbun.png) 0px 2px no-repeat;
+}
+header>div span i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: -5px;
+    background: url(../img/turnb.png) 0px 2px no-repeat;
+}
+/* section */
+.main{
+    background: #FCFCFC;
+}
+section{
+    /* border: 1px solid black; */
+    background: #FCFCFC;
+    height: 380px;
+}
+
+section article{
+    background: #ffffff;
+    /* border: 1px solid gray; */
+    margin-right:109px ;
+    margin-top:50px ;
+    padding: 30px 30px 10px 30px;
+    box-sizing: border-box;
+    width: 350px;
+    height: 315px;
+    margin: 0px auto;
+}
+section article h1{
+    color: #333333;
+    text-align: center;
+}
+section article form p{
+    padding: 5px 0px;
+}
+section article form input[name="telephone"]{
+    width: 288px;
+    height: 34px; 
+    text-indent: 10px;
+}
+
+section article form input[name="teleck"]{
+    width: 181px;
+    height: 34px; 
+    text-indent: 10px;
+}
+section article form input[name="code"]{
+    border: none;
+    width: 100px;
+    height: 37px; 
+    background: #57565F;
+    color: #ffffff;
+}
+
+section article form input[name="pwd"]{
+    width: 288px;
+    height: 34px; 
+    text-indent: 10px;
+}
+section article form input[name="pwdck"]{
+    width: 288px;
+    height: 34px; 
+    text-indent: 10px;
+}
+
+section article form .ck{
+    line-height: 30px;
+    font-size: 12px;
+    color: #6D6E76;
+}
+section article form .ck input{
+    vertical-align: middle;
+}
+section article form .ck a{
+    color: rgb(6, 107, 250);
+}
+section article form .submit input{
+    border: none;
+    width: 288px;
+    height: 40px; 
+    background: #FF3C3C;
+    color: #ffffff;
+}
+/* footer */
+footer ul{
+    width: 338px;
+    margin: 0px auto;
+}
+footer ul:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+footer ul li{
+    font-size: 12px;
+    float: left;
+    line-height: 20px;
+    padding: 10px 10px 10px 0px;
+}
+
+footer p{
+    width: 343px;
+    margin: 0px auto;
+    font-size: 12px;
+}
