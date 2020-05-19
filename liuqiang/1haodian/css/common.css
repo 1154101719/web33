@@ -14,9 +14,10 @@ a{
     color: black;
 }
 .wrap{
-    width: 1200px;
+    width: 90%;
     margin: 0px auto;
     box-sizing: border-box;
+    min-width: 1200px;
 }
 .fl{
     float: left;
