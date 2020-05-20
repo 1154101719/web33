@@ -6,7 +6,10 @@ iframe[name="mainForm"]{
     min-width: 0px;
 }
 section{
-    background-position-x:-140px ;
+    background-position-x:-73px ;
+}
+section article{
+    opacity: 0.9;
 }
 section article{
     margin: 1px;
