@@ -1,0 +1,102 @@
+
+
+/* footer */
+footer {
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 0px;
+    width: 90%;
+    left: 5%;
+}
+footer .cirlist{
+    margin-top:10px ;
+}
+footer .cirlist ul:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+footer .cirlist ul{
+    width: 850px;
+    margin: 0px auto;
+}
+footer .cirlist li{
+    float: left;
+    text-align: center;
+    padding:0px 40px ;
+}
+footer .cirlist li p{
+    padding:5px 0px ;
+    font-size: 0.8em;
+}
+footer .cirlist li p:last-of-type{
+    color: gray;
+}
+footer .cirlist li p img{
+    transition: all .5s ease;
+}
+footer .cirlist li p img:hover{
+    transform: rotate(360deg) scale(1.2);
+}
+
+footer .explainList {
+    width: 1000px;
+    margin: 0px auto;
+}
+footer .explainList:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+footer .explainList li{
+    float: left;
+    padding: 20px;
+}
+footer .explainList li dt{
+    line-height: 40px;
+    font-size: 1em;
+}
+footer .explainList li dd{
+    line-height: 20px;
+    font-size: .8em;
+}
+footer .explainList li:last-of-type{
+    line-height: 30px;
+    font-size: 1em;
+}
+
+footer .explainList .QRcode{
+    padding-right: 0px;
+}
+
+footer .explainList li:last-of-type .xinlang i{
+    display: inline-block;
+    background: url(../img/b_sh_1.png) 0px 0px no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-bottom: -12px;
+}
+footer .explainList li:last-of-type .tx i{
+    display: inline-block;
+    background: url(../img/b_sh_2.png) 0px 0px no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-bottom: -12px;
+}
+footer .explainList li:last-of-type big{
+    color: #FF3C3C;
+}
+footer .icp{
+    font-size: .8em;
+    text-align: center;
+    border-top: 1px solid rgb(201, 199, 199);
+}
+footer .icp p{
+    line-height: 50px;
+    color: gray;
+}
+footer .icp .pic img{
+    width: 98px;
+    margin: 0px 5px;
+    border: 1px solid rgb(201, 199, 199);
+}

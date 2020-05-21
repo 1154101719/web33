@@ -1,0 +1,159 @@
+/* header */
+header {
+    width: 100%;
+    background: linear-gradient(#D3D3D3, #ffffff);
+}
+
+header .head {
+    /* border: 1px solid red; */
+    line-height: 40px;
+    font-size: 0.8em;
+}
+
+header .head>a {
+    color: rgb(55, 136, 218);
+}
+
+header .head ul li {
+    float: left;
+    margin: 0px 5px;
+}
+
+header .head ul li i {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-left: 2px;
+    background: url(../img/turnb.png) -3px -2px no-repeat;
+}
+
+header .head ul li.phone i:first-of-type {
+    width: 11px;
+    height: 16px;
+    margin-bottom: -3px;
+    background: url(../img/indexhead_sprite.png) no-repeat -288px -230px;
+}
+
+header .head ul li.line {
+    padding: 0px;
+    color: rgb(204, 204, 204);
+}
+
+header .head ul li:last-of-type {
+    background: none;
+}
+
+/* 下拉框 */
+header .head ul li.cusSer {
+    width: 70px;
+    box-sizing: border-box;
+    padding: 0px 2px;
+    border: 1px solid rgba(211, 210, 210, 0);
+    position: relative;
+}
+
+header .head ul li.cusSer:hover {
+    border: 1px solid rgba(211, 210, 210, 1);
+    background: #FFFFFF;
+    border-bottom: 0px;
+}
+
+header .head ul li.cusSer:hover ul {
+    display: block;
+}
+
+header .head ul li.cusSer ul {
+    background: #FFFFFF;
+    position: absolute;
+    width: 70px;
+    left: -1px;
+    top: 40px;
+    border: 1px solid rgb(211, 210, 210);
+    border-top: 0px;
+    box-sizing: border-box;
+    display: none;
+    z-index: 1;
+}
+
+header .head ul li.cusSer li {
+    line-height: 20px;
+}
+
+/* 搜索框  search*/
+.search {
+    margin-top: 10px;
+}
+
+.search img {
+    vertical-align: middle;
+}
+
+.search article {
+    width: 70%;
+    padding-left: 10%;
+    padding-top: 10px;
+}
+
+.search article p:first-of-type {
+    display: inline-block;
+    border: 1px solid #FF3C3C;
+}
+
+.search article p:first-of-type label {
+    display: inline-block;
+    width: 90px;
+    line-height: 33px;
+    text-align: center;
+    background: #F8F8F8;
+    vertical-align: middle;
+}
+
+.search article p:first-of-type input[type='text'] {
+    width: 300px;
+    line-height: 33px;
+    border: none;
+}
+
+.search article p:first-of-type input[type='text']:focus {
+    outline: none;
+}
+
+.search article p:first-of-type input[type='submit'] {
+    width: 120px;
+    line-height: 34px;
+    background: #FF3C3C;
+    color: #ffffff;
+    border: none;
+}
+.search article>a {
+    margin-left: 10%;
+    display: inline-block;
+    width: 120px;
+    line-height: 34px;
+    background: #F6F6F6;
+    color: black;
+    text-align: center;
+    border: 1px solid rgb(177, 177, 177);
+    position: relative;
+}
+
+.search article>a i{
+    position: absolute;
+    left: 9px;
+    top: 9px;
+    display: inline-block;
+    width: 17px;
+    height: 15px;
+    background:url(../img/car.png) 0px 0px no-repeat ;
+}
+
+.search article p:last-of-type a {
+    font-size: 0.8em;
+    color: gray;
+}
+
+.search:after {
+    content: '';
+    display: block;
+    clear: both;
+}

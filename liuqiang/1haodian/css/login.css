@@ -126,3 +126,20 @@ section article>p:last-of-type span{
     background-size: 15px;
 }
 
+.content{
+    position: relative;
+    padding-bottom: 120px;
+    min-height: 100%;
+    box-sizing: border-box;
+}
+iframe[src*="comHeader.html"]{
+    width: 100%;
+    height: 100px;
+}
+iframe[src*="comFooter.html"]{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 120px;
+}
+
