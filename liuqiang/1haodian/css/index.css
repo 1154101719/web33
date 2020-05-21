@@ -1,0 +1,259 @@
+/* header */
+header {
+    width: 100%;
+    background: linear-gradient(#D3D3D3, #ffffff);
+}
+
+header .head {
+    /* border: 1px solid red; */
+    line-height: 40px;
+    font-size: 0.8em;
+}
+
+header .head>a {
+    color: rgb(55, 136, 218);
+}
+
+header .head ul li {
+    float: left;
+    margin: 0px 5px;
+}
+
+header .head ul li i {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-left: 2px;
+    background: url(../img/turnb.png) -3px -2px no-repeat;
+}
+
+header .head ul li.phone i:first-of-type {
+    width: 11px;
+    height: 16px;
+    margin-bottom: -3px;
+    background: url(../img/indexhead_sprite.png) no-repeat -288px -230px;
+}
+
+header .head ul li.line {
+    padding: 0px;
+    color: rgb(204, 204, 204);
+}
+
+header .head ul li:last-of-type {
+    background: none;
+}
+
+/* 下拉框 */
+header .head ul li.cusSer {
+    width: 70px;
+    box-sizing: border-box;
+    padding: 0px 2px;
+    border: 1px solid rgba(211, 210, 210, 0);
+    position: relative;
+}
+
+header .head ul li.cusSer:hover {
+    border: 1px solid rgba(211, 210, 210, 1);
+    background: #FFFFFF;
+    border-bottom: 0px;
+}
+
+header .head ul li.cusSer:hover ul {
+    display: block;
+}
+
+header .head ul li.cusSer ul {
+    background: #FFFFFF;
+    position: absolute;
+    width: 69px;
+    left: -0.5px;
+    top: 40px;
+    border: 1px solid rgb(211, 210, 210);
+    border-top: 0px;
+    box-sizing: border-box;
+    display: none;
+}
+
+header .head ul li.cusSer li {
+    line-height: 20px;
+}
+
+/* 搜索框  search*/
+.search {
+    margin-top: 10px;
+}
+
+.search img {
+    vertical-align: middle;
+}
+
+.search article {
+    width: 70%;
+    padding-left: 10%;
+    padding-top: 10px;
+}
+
+.search article p:first-of-type {
+    display: inline-block;
+    border: 1px solid #FF3C3C;
+}
+
+.search article p:first-of-type label {
+    display: inline-block;
+    width: 90px;
+    line-height: 33px;
+    text-align: center;
+    background: #F8F8F8;
+    vertical-align: middle;
+}
+
+.search article p:first-of-type input[type='text'] {
+    width: 300px;
+    line-height: 33px;
+    border: none;
+}
+
+.search article p:first-of-type input[type='text']:focus {
+    outline: none;
+}
+
+.search article p:first-of-type input[type='submit'] {
+    width: 120px;
+    line-height: 34px;
+    background: #FF3C3C;
+    color: #ffffff;
+    border: none;
+}
+.search article>a {
+    margin-left: 10%;
+    display: inline-block;
+    width: 120px;
+    line-height: 34px;
+    background: #F6F6F6;
+    color: black;
+    text-align: center;
+    border: 1px solid rgb(177, 177, 177);
+    position: relative;
+}
+
+.search article>a i{
+    position: absolute;
+    left: 9px;
+    top: 9px;
+    display: inline-block;
+    width: 17px;
+    height: 15px;
+    background:url(../img/car.png) 0px 0px no-repeat ;
+}
+
+.search article p:last-of-type a {
+    font-size: 0.8em;
+    color: gray;
+}
+
+.search:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* footer */
+footer {
+    /* border: 1px solid red; */
+    position: absolute;
+    bottom: 0px;
+    width: 90%;
+    left: 5%;
+}
+footer .cirlist{
+    margin-top:10px ;
+}
+footer .cirlist ul:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+footer .cirlist ul{
+    width: 850px;
+    margin: 0px auto;
+}
+footer .cirlist li{
+    float: left;
+    text-align: center;
+    padding:0px 40px ;
+}
+footer .cirlist li p{
+    padding:5px 0px ;
+    font-size: 0.8em;
+}
+footer .cirlist li p:last-of-type{
+    color: gray;
+}
+footer .cirlist li p img{
+    transition: all .5s ease;
+}
+footer .cirlist li p img:hover{
+    transform: rotate(360deg) scale(1.2);
+}
+
+footer .explainList {
+    width: 1000px;
+    margin: 0px auto;
+}
+footer .explainList:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+footer .explainList li{
+    float: left;
+    padding: 20px;
+}
+footer .explainList li dt{
+    line-height: 40px;
+    font-size: 1em;
+}
+footer .explainList li dd{
+    line-height: 20px;
+    font-size: .8em;
+}
+footer .explainList li:last-of-type{
+    line-height: 30px;
+    font-size: 1em;
+}
+
+footer .explainList li:last-of-type .xinlang i{
+    display: inline-block;
+    background: url(../img/b_sh_1.png) 0px 0px no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-bottom: -12px;
+}
+footer .explainList li:last-of-type .tx i{
+    display: inline-block;
+    background: url(../img/b_sh_2.png) 0px 0px no-repeat;
+    width: 30px;
+    height: 30px;
+    margin-bottom: -12px;
+}
+footer .explainList li:last-of-type big{
+    color: #FF3C3C;
+}
+footer .icp{
+    font-size: .8em;
+    text-align: center;
+    border-top: 1px solid rgb(201, 199, 199);
+}
+footer .icp p{
+    line-height: 50px;
+}
+footer .icp .pic img{
+    margin: 0px 5px;
+    border: 1px solid rgb(201, 199, 199);
+}
+.content{
+    padding-bottom: 450;
+    position: relative;
+    min-height: 100%;
+    box-sizing: border-box;
+}
