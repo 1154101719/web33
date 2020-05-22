@@ -1,21 +1,319 @@
-.content{
+.content {
     position: relative;
     width: 100%;
     min-height: 100%;
     box-sizing: border-box;
     padding-bottom: 450px;
 }
-.content iframe[src*="header.html"]{
+
+.content iframe[src*="header.html"] {
     display: block;
     width: 100%;
     height: 150px;
     border: none;
 }
-.content iframe[src*="footer.html"]{
+
+.content iframe[src*="footer.html"] {
     position: absolute;
     display: block;
     width: 100%;
     height: 450px;
     border: none;
     bottom: 0px;
+}
+
+/* 搜索条件  sNav */
+.snav {
+    margin-bottom: 20px;
+}
+
+.snav .stitle {
+    line-height: 40px;
+    border-bottom: 2px solid #FF3C3C;
+
+}
+
+.snav .stitle a {
+    font-size: 1em;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.snav .stitle img {
+    vertical-align: middle;
+}
+
+.snav .stitle a {
+    padding: 0px 10px;
+}
+
+.snav .stitle a:first-of-type {
+    padding: 0px 80px;
+    line-height: 40px;
+    color: #ffffff;
+    background: #FF3C3C;
+}
+
+.snav .stitle a:nth-of-type(2),
+.snav .stitle a:nth-of-type(3) {
+    color: #FF3C3C;
+}
+
+.snav .slist p {
+    line-height: 40px;
+    font-size: 0.8em;
+}
+
+.snav .slist p i {
+    color: #FF5229;
+}
+
+.snav .slist ul li dl:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.snav .slist ul li {
+    font-size: 0.8em;
+    border: 1px solid rgb(221, 220, 220);
+    border-bottom: 0px;
+    padding: 10px 0px;
+}
+
+.snav .slist ul li:last-of-type {
+    border-bottom: 1px solid rgb(221, 220, 220);
+}
+
+.snav .slist ul li dl dt {
+    padding-top: 5px;
+    text-align: center;
+    width: 10%;
+}
+
+.snav .slist ul li dl dd {
+    width: 90%;
+}
+
+.snav .slist ul li dl dd a {
+    display: inline-block;
+    padding: 5px 15px 5px 0px;
+}
+
+/* 搜索内容 */
+.scontent {
+    margin-bottom: 20px;
+}
+
+.scontent:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.scontent aside {
+    width: 15%;
+}
+
+.scontent aside dl dt {
+    padding: 0px 10px;
+    line-height: 30px;
+    font-size: 0.8em;
+    color: #FF4E00;
+    border: 1px solid rgb(221, 220, 220);
+    border-bottom: none;
+}
+
+.scontent aside dl dt i {
+    display: inline-block;
+    width: 3px;
+    height: 15px;
+    background: #FF4E00;
+    margin-bottom: -3px;
+}
+
+.scontent aside dd {
+    border: 1px solid rgb(221, 220, 220);
+    padding: 5px 10px 5px 0px;
+    text-align: center;
+}
+
+.scontent aside dd img {
+    width: 180px;
+}
+
+.scontent aside dd p a {
+    font-size: 0.8em;
+}
+
+.scontent article {
+    width: 85%;
+}
+
+.scontent article .anav {
+    border-bottom: 1px solid rgb(221, 220, 220);
+    line-height: 30px;
+    font-size: 0.8em;
+}
+
+.scontent article .anav span {
+    display: inline-block;
+    line-height: 24px;
+    padding: 0px 30px 0px 10px;
+    border: 1px solid rgb(221, 220, 220);
+    border-left: none;
+    margin-right: -4px;
+}
+
+.scontent article .anav span:last-of-type {
+    border: none;
+}
+
+.scontent article .anav span:first-of-type {
+    background: #FF4E00;
+    color: #ffffff;
+}
+
+.scontent article .anav span:nth-of-type(2),
+.scontent article .anav span:nth-of-type(3) {
+    position: relative;
+}
+
+.scontent article .anav span:nth-of-type(2) img:first-of-type,
+.scontent article .anav span:nth-of-type(3) img:first-of-type {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.scontent article .anav span:nth-of-type(2) img:last-of-type,
+.scontent article .anav span:nth-of-type(3) img:last-of-type {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.scontent article .acontent {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.scontent article .acontent div {
+    box-sizing: border-box;
+    width: 252px;
+    height: 340px;
+    text-align: center;
+    padding: 10px;
+    float: left;
+    margin: 10px 5px;
+    border: 1px solid rgba(221, 220, 220,0);
+}
+
+.scontent article .acontent img {
+    width: 230px;
+}
+
+.scontent article .acontent div a {
+    display: inline-block;
+    font-size: .8em;
+}
+
+.scontent article .acontent div p:last-of-type {
+    margin-top: 10px;
+    line-height: 30px;
+    border: 1px solid rgb(221, 220, 220);
+}
+
+.scontent article .acontent div p:last-of-type:after {
+    content: '';
+    display: block;
+    clear: both;
+
+}
+
+.scontent article .acontent div .collect {
+    width: 70px;
+    text-align: right;
+    padding-right: 10px;
+    border-right: 1px solid rgb(221, 220, 220);
+    background: url(../img/heart.png) 15px 8px no-repeat;
+}
+.scontent article .acontent div .join {
+    width: 137px;
+    text-align: right;
+    padding-right: 10px;
+    position: relative;
+}
+.scontent article .acontent div .join i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/cars.png) 0px 0px no-repeat;
+    position: absolute;
+    top: 3px;
+    left: 25px;
+}
+.scontent article .acontent div:nth-of-type(3) .join i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/cars_h.png) 0px 0px no-repeat;
+    position: absolute;
+    top: 3px;
+    left: 25px;
+}
+.scontent article .acontent div:hover{
+    transition:all 1s ease;
+    border: .5px solid rgb(221, 220, 220,1);
+    box-shadow: 0px 0px 10px rgb(146, 144, 144);
+}
+.scontent article .acontent:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+/* 分页 */
+.scontent .paging{
+    text-align: center;
+}
+.scontent .paging:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.scontent .paging a{
+    display: inline-block;
+    line-height: 25px;
+    border: 1px solid rgb(221, 220, 220);
+    padding: 5px 10px;
+    font-size: .8em;
+}
+.scontent .paging a:nth-of-type(2){
+    background-color: #FF4E00;
+    color: #ffffff;
+}
+.scontent .paging a.ellip{
+    border: none;
+}
+
+/* color */
+.FF5229 {
+    color: #FF5229;
+}
+
+.c808080 {
+    color: #808080;
+}
+
+.cB0364F {
+    color: #B0364F;
+}
+.divborder{
+    border: 1px solid rgb(221, 220, 220);
+}
+.divbg{
+    background:#FF4E00;
+    color: #ffffff;
 }
