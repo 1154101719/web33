@@ -4,6 +4,7 @@
     min-height: 100%;
     box-sizing: border-box;
     padding-bottom: 450px;
+    min-width: 1200px;
 }
 
 .content iframe[src*="header.html"] {
